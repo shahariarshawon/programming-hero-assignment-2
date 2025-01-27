@@ -1,0 +1,67 @@
+/* variable declare */
+:root{
+    --font:quicksand;
+    --orange:#fea301;
+    --skyblue: #01ACFD;
+}
+/* fixing the font for whole page */
+html{
+    font-family: var(--font);
+}
+/* navbar design */
+nav{
+    margin: 1rem 8.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+.div1 img{
+    width: 4rem;
+    height: 4rem;
+}
+.div1 >h3{
+    font-size: 32px;
+    font-family: var(--font);
+}
+.div2{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    
+}
+.div2 a{
+    text-decoration: none;
+    font-size:1.25rem ;
+    font-weight: 500; 
+}
+.div2 #list1>a{
+    color: #FEA301;
+    
+}
+.div2 #list2>a{
+    color: var(--skyblue);
+}
+.div2 #list3>a{
+    color: #05D4DF;
+}
+.div2 #list4>a{
+    color: #5D58EF;
+}
+
+.div3 button{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color:white;
+    padding: 0.625rem;
+    border-radius: 12px;
+    border: none;
+    background-color: #FEA301;
+    width: 12rem;
+}
+
+/* banner design */
