@@ -210,35 +210,118 @@ nav{
   text-align: center;
 }
 /* our stories section */
-#our-stories{
-    background-image: url('../assets/bg.png');
-}
-#our-stories h3{
+#ourstoriesh2{
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 19rem;
-    margin-bottom: 9rem;
-    
+    margin-top: 13rem;
+    background-image: url('../assets/bg.png');
 }
-#our-storiesdiv1{
-    width: 33.75rem;
-}
-#our-storiesdiv2{
-    display: grid;
-    grid-template-columns: repeat(2,0.8fr);
-}
-#our-stories2{
+#ourstories{
+    background-image: url('../assets/bg.png');
+    margin-top: 5rem;
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
+    /* flex-grow: 1; */
+    margin: 4.8rem 5.75rem;
+    gap: 9.5rem;
+
+}
+#os1{
+    width: 35rem;
+    height: 43.5rem;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     
 }
-.os1{
-    background-color: white;
-    border-radius: 16px;
-    border: 1px solid black;
+#os1 img{
+    width: 35rem;
+    /* height: 40rem; */
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
-.os1 img{
+#os1 h4{
+    font-size: 1.3rem;
+    line-height: 38.9px;
+    margin-top: 0;
+    margin-left: 2.5rem;
+    margin-right: 4rem;
+}
+#os1 p{
+    font-weight: 500;
+    color: #666666;
+    margin-left: 2.5rem;
+    margin-right: 4rem;
+    line-height: 28.8px;
+}
+#ourstories button{
+    font-weight: 500;
+    color: white;
+    background-color: #3CD8E8;
+    border: none;
+    width: 10.9rem;
+    height: 3rem;
+    border-radius: 47.93px;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+#os2{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    /* gap: 3rem; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:auto ;
+    width: 75rem;
+    gap: 1.25rem;
+    margin: 0;
+}
+#os2 img{
     width: 100%;
-    height: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#os2 button{
+    height: 2.6rem;
+}
+#os2 div{
+    width:23rem ;
+    height:auto ;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    background-color: #fff;
+}
+#os2 h4{
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+    font-weight: bold;
+    margin-top: 0;
+    
+}
+#osbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 3.8rem;
+}
+#osbutton button{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    width: 12.31rem;
+    height: 3.1rem;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    /* margin: 0 auto; */
+}
+#ourstoriesmain{
+    
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    
+    height: 65rem;
+
 }
