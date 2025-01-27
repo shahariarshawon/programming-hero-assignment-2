@@ -113,7 +113,7 @@ nav{
     text-align: center;
     font-size: 2.8rem;
     font-weight: bold;
-    margin-top: 3.8rem;
+    margin-top: 4.5rem;
 }
 .container {
     display: flex;
@@ -144,6 +144,7 @@ nav{
     font-size: 1.47rem;
     font-weight: bold;
     margin-bottom: 32px;
+    
 }
 
 .card p {
@@ -179,5 +180,65 @@ nav{
 }
 #standard-curriculum{
     background-image: url('../assets/bg.png');
-    height: 880px;
+    height: 730px;
+    margin-bottom: 0;
+}
+/* standard curriculum button */
+#sec2button{
+    margin-top: 0rem;
+    margin-bottom: 7rem;
+}
+#scdiv3{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   
+}
+#scdiv3 #button1, #button2{
+    background: orange;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 50%;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    padding: 0.2rem;
+}
+#button1,#button2{
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+/* our stories section */
+#our-stories{
+    background-image: url('../assets/bg.png');
+}
+#our-stories h3{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 19rem;
+    margin-bottom: 9rem;
+    
+}
+#our-storiesdiv1{
+    width: 33.75rem;
+}
+#our-storiesdiv2{
+    display: grid;
+    grid-template-columns: repeat(2,0.8fr);
+}
+#our-stories2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.os1{
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+.os1 img{
+    width: 100%;
+    height: 100%;
 }
