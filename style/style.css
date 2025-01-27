@@ -222,15 +222,15 @@ nav{
     margin-top: 5rem;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     /* flex-grow: 1; */
     margin: 4.8rem 5.75rem;
-    gap: 9.5rem;
+    gap: 14.5rem;
 
 }
 #os1{
-    width: 35rem;
-    height: 43.5rem;
+    max-width:  35rem;
+    max-height: 43.5rem;
     border-radius: 16px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -276,7 +276,8 @@ nav{
     flex-wrap: wrap;
     margin-left:auto ;
     width: 75rem;
-    gap: 1.25rem;
+column-gap: 5rem;
+row-gap: 1.25rem;
     margin: 0;
 }
 #os2 img{
@@ -288,7 +289,7 @@ nav{
     height: 2.6rem;
 }
 #os2 div{
-    width:23rem ;
+    max-width:25rem ;
     height:auto ;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 16px;
@@ -299,7 +300,16 @@ nav{
     margin-right: 2.3rem;
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 2.5rem;
+    line-height: 29px;
     
+}
+#os2-1 button{
+    background-color: #95B226;
+    /* width: 15rem; */
+}
+#os2-2 button{
+    background-color: #5D58F0;
 }
 #osbutton{
     display: flex;
@@ -324,4 +334,58 @@ nav{
     
     height: 65rem;
 
+}
+#footer-container{
+    background:  #01ACFD;
+    
+    
+}
+#fdiv1-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+#footerbox{
+    /* margin-left: 5.51rem;
+    margin-right: 14.51rem; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top:7.65rem ;
+    padding-bottom: 10.94rem;
+    align-items: flex-start;
+    max-width: 67rem;
+    max-height: 14rem;
+}
+#fdiv1 p{
+    max-width: 25rem;
+    color: white;
+    font-size: 1.25rem;
+}
+#fdiv1 h2{
+    color: white;
+    max-width: 18.5rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#fdiv2 h3{
+    color: white;
+    font-size: 1.65rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+#fdiv2 li{
+    list-style: none;
+    color: white;
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+#fdiv3 h2{
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
