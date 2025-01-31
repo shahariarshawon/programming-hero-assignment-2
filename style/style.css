@@ -274,13 +274,13 @@ nav{
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    
+    padding-right: 5rem;
     padding-top: 8rem;
     padding-bottom: 2rem;
-    background-image: url('../assets/bg.png');
+    /* background-image: url('../assets/bg.png'); */
 }
 #ourstories{
-    background-image: url('../assets/bg.png');
+    /* background-image: url('../assets/bg.png'); */
     margin-top: 5rem;
     display: flex;
     align-items: flex-start;
@@ -388,7 +388,9 @@ row-gap: 1.25rem;
     justify-content: center;
     margin-top: 5rem;
     padding-bottom: 4rem;
-    background-image: url('../assets/bg.png');
+    margin-left: 0;
+    padding-right: 5.5rem;
+    /* background-image: url('../assets/bg.png'); */
 
 }
 #osbutton button{
@@ -481,25 +483,33 @@ row-gap: 1.25rem;
 .hidden{
     display: none;
 }
-/* mobile responsive */
+                            /* mobile responsive */
+
+
 @media screen and (max-width:576px) {
+    
     /* navbar responsive */
     nav{
         /* max-width: 574px; */
         /* border-bottom: 1px solid orange; */
-        margin: 12px 15px;
+        /* margin: 12px 15px; */
+        /* margin-right: 0; */
+        /* margin-left: 0; */
+        margin-left: 1.2rem;
         /* display: flex;
         justify-content: space-between;
         align-items: center; */
     }
+    
     #div1>a> img{
         width: 46px;
         height: 46px;
+        /* padding-right: 39rem; */
     }
    
     .div4 {
       display: block;
-      /* margin-left: 17rem; */
+      margin-left: 14.8rem;
     }
     
     #navh2,.div2,.div3{
@@ -519,7 +529,10 @@ row-gap: 1.25rem;
 #banner{
     flex-direction: column-reverse;
     /* border-top: 1px solid orange; */
-    margin: 12px 15px;
+    /* margin: 12px 15px; */
+    /* margin: 0; */
+    margin-top: 0;
+    margin-left: 8.5rem;
 }
 #bdiv2 img{
     width: 345px;
@@ -557,9 +570,10 @@ row-gap: 1.25rem;
 #marquee1{
     margin-top: 18px;
     /* padding: 5px; */
-    width: 425px;
+    width: 424px;
     position: relative;
-    left: -30px;
+    left: -29px;
+    border-radius: 5px;
 }
 
 /* standard curriculum */
@@ -568,9 +582,8 @@ row-gap: 1.25rem;
     /* border: 1px solid red; */
     height: auto;
     width: auto;
-    margin: 0 auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 1rem;
     
 }
 .container{
@@ -582,6 +595,7 @@ row-gap: 1.25rem;
 }
 #standard-curriculum h2 {
     text-align: center;
+    margin-right: 25px;
     font-size: 26px;
     font-weight: bold;
     margin-top: 40px;
@@ -636,12 +650,73 @@ row-gap: 1.25rem;
 }
 
 /* our stories */
+#ourstoriesmain{
+    width: 100%;
+    /* height: auto; */
+    padding: 0;
+    position: absolute;
+    left: 0;
+    margin-top: 0;
+    flex-wrap: wrap;
+    margin-left: 0s;
+}
 
+#os2 div{
+    width:165px;
+    margin-top: 0;
+}
+#os2 h4{
+    font-size: 10px;
+    line-height: 18px;
+    padding-left: 1.2rem;
+}
+#os2 button{
+    font-size: 10px;
+    width: 103px;
+    height: 22.8px;
+    border-radius: 28.5px;
+    position: relative;
+    left: 15px;
+    top: -16px;
+}
+#ourstories{
+    margin-top: 0;
+    margin-left: 2.8rem;
+}
+#ourstoriesh2{
+    font-size: 26px;
+    /* text-align: center; */
+    padding-left: 15%;
+    padding-top: 25px;
+    background-image: url('../assets/bg.png');
+
+}
 #os1{
     display: none;
 }
-
-
+#osbutton button{
+    font-size: 16px;
+    width: 130px;
+    height: 30px;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    /* padding-left: 8.8rem; */
+    
+}
+#osbutton{
+    margin-top: 2rem;
+    margin-left: 5.5rem;
+}
+#os2 {
+    
+    /* border: 2px solid red; */
+    padding-left: 0;
+    max-width: 100%;
+    margin: 0 auto;
+    column-gap: 15px;
+    /* padding-right: 12rem; */
+    /* padding-left: 0; */
+}
 
 
 
